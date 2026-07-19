@@ -6,6 +6,11 @@
   used on Windows so that the grey background remains uniform & doesn't get
   garbled. Fixes #6280.
 
+## Build system changes
+
+* The bundled libraries `libEBML` & `libMatroska` were updated to v1.4.6 &
+  v1.7.2 respectively.
+
 
 # Version 100.0 "Do Hot Girls Like Chords" 2026-07-05
 
