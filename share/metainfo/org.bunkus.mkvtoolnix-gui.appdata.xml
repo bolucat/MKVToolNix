@@ -31,6 +31,7 @@
   </description>
   <categories>
    <category>AudioVideo</category>
+   <category>AudioVideoEditing</category>
   </categories>
   <url type="bugtracker">https://codeberg.org/mbunkus/mkvtoolnix/issues</url>
   <url type="contact">https://mkvtoolnix.download/community.html</url>
