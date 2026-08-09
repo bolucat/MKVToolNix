@@ -4140,8 +4140,8 @@ msgstr "Linux 及类 Unix 系统，包括 macOS"
 
 #. type: Content of: <refentry><refsect1><refsect2><para>
 #: doc/man/mkvmerge.xml:2830
-msgid "On Unix-like systems &mkvmerge; uses the <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> system call which in turn uses the environment variables <varname>LANG</varname>, <varname>LC_ALL</varname> and <varname>LC_CYPE</varname>. The resulting character set is often one of UTF-8 or the ISO-8859-* family and is used for all text file operations and for encoding strings on the command line and for output to the console."
-msgstr "在 类-Unix 系统 &mkvmerge; 将使用 <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> 系统指令，它将返回环境变量 <varname>LANG</varname>、<varname>LC_ALL</varname> 及 <varname>LC_CYPE</varname>。输出的字符集通常是 UTF-8 或 ISO-8859-* 家族之一，将被用于所有文本文件操作以及编码命令行上的字符串和输出到命令行。"
+msgid "On Unix-like systems &mkvmerge; uses the <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> system call which in turn uses the environment variables <varname>LANG</varname>, <varname>LC_ALL</varname> and <varname>LC_CTYPE</varname>. The resulting character set is often one of UTF-8 or the ISO-8859-* family and is used for all text file operations and for encoding strings on the command line and for output to the console."
+msgstr "在 类-Unix 系统 &mkvmerge; 将使用 <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> 系统指令，它将返回环境变量 <varname>LANG</varname>、<varname>LC_ALL</varname> 及 <varname>LC_CTYPE</varname>。输出的字符集通常是 UTF-8 或 ISO-8859-* 家族之一，将被用于所有文本文件操作以及编码命令行上的字符串和输出到命令行。"
 
 #. type: Content of: <refentry><refsect1><refsect2><title>
 #: doc/man/mkvmerge.xml:2838

@@ -4138,8 +4138,8 @@ msgstr "Linux og Unix-lignende systemer inkludert macOS"
 
 #. type: Content of: <refentry><refsect1><refsect2><para>
 #: doc/man/mkvmerge.xml:2830
-msgid "On Unix-like systems &mkvmerge; uses the <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> system call which in turn uses the environment variables <varname>LANG</varname>, <varname>LC_ALL</varname> and <varname>LC_CYPE</varname>. The resulting character set is often one of UTF-8 or the ISO-8859-* family and is used for all text file operations and for encoding strings on the command line and for output to the console."
-msgstr "På Unix-lignende systemer bruker &mkvmerge; systemkallet <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> som igjen bruker miljøvariablene <varname>LANG</varname>, <varname>LC_ALL</varname> og <varname>LC_CYPE</varname>. Det resulterende tegnsettet er ofte et av UTF-8- eller ISO-8859-*-familien og brukes til alle tekstfiloperasjoner og for koding av strenger på kommandolinjen og for utdata til konsollen."
+msgid "On Unix-like systems &mkvmerge; uses the <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> system call which in turn uses the environment variables <varname>LANG</varname>, <varname>LC_ALL</varname> and <varname>LC_CTYPE</varname>. The resulting character set is often one of UTF-8 or the ISO-8859-* family and is used for all text file operations and for encoding strings on the command line and for output to the console."
+msgstr "På Unix-lignende systemer bruker &mkvmerge; systemkallet <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> som igjen bruker miljøvariablene <varname>LANG</varname>, <varname>LC_ALL</varname> og <varname>LC_CTYPE</varname>. Det resulterende tegnsettet er ofte et av UTF-8- eller ISO-8859-*-familien og brukes til alle tekstfiloperasjoner og for koding av strenger på kommandolinjen og for utdata til konsollen."
 
 #. type: Content of: <refentry><refsect1><refsect2><title>
 #: doc/man/mkvmerge.xml:2838

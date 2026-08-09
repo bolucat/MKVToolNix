@@ -4172,7 +4172,7 @@ msgstr "Linux および macOS を含む Unix 系システム"
 
 #. type: Content of: <refentry><refsect1><refsect2><para>
 #: doc/man/mkvmerge.xml:2830
-msgid "On Unix-like systems &mkvmerge; uses the <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> system call which in turn uses the environment variables <varname>LANG</varname>, <varname>LC_ALL</varname> and <varname>LC_CYPE</varname>. The resulting character set is often one of UTF-8 or the ISO-8859-* family and is used for all text file operations and for encoding strings on the command line and for output to the console."
+msgid "On Unix-like systems &mkvmerge; uses the <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> system call which in turn uses the environment variables <varname>LANG</varname>, <varname>LC_ALL</varname> and <varname>LC_CTYPE</varname>. The resulting character set is often one of UTF-8 or the ISO-8859-* family and is used for all text file operations and for encoding strings on the command line and for output to the console."
 msgstr "Unix 系システムにおいて &mkvmerge; は、<citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> システムコールを使用します。これは環境変数 <varname>LANG</varname>, <varname>LC_ALL</varname>, <varname>LC_CTYPE</varname> を参照するものです。決定される文字セットは多くの場合 UTF-8 または ISO-8859-* ファミリーのいずれかであり、すべてのテキストファイル操作、コマンドライン文字列のエンコード、およびコンソールへの出力に使用されます。"
 
 #. type: Content of: <refentry><refsect1><refsect2><title>

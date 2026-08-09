@@ -4174,8 +4174,8 @@ msgstr "MacOS를 포함한 Linux 및 Unix 계열 시스템"
 
 #. type: Content of: <refentry><refsect1><refsect2><para>
 #: doc/man/mkvmerge.xml:2830
-msgid "On Unix-like systems &mkvmerge; uses the <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> system call which in turn uses the environment variables <varname>LANG</varname>, <varname>LC_ALL</varname> and <varname>LC_CYPE</varname>. The resulting character set is often one of UTF-8 or the ISO-8859-* family and is used for all text file operations and for encoding strings on the command line and for output to the console."
-msgstr "유닉스 계열 시스템에서 &mkvmerge;는 환경 변수 <varname>LANG</varname>, <varname>LC_ALL</varname>, <varname>LC_CYPE</varname>을 사용하는 <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> 시스템 호출을 사용합니다. 결과 문자 집합은 종종 UTF-8이나 ISO-8859-* 계열 중 하나이며 모든 텍스트 파일 작업과 명령줄의 문자열 인코딩 및 콘솔 출력에 사용됩니다."
+msgid "On Unix-like systems &mkvmerge; uses the <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> system call which in turn uses the environment variables <varname>LANG</varname>, <varname>LC_ALL</varname> and <varname>LC_CTYPE</varname>. The resulting character set is often one of UTF-8 or the ISO-8859-* family and is used for all text file operations and for encoding strings on the command line and for output to the console."
+msgstr "유닉스 계열 시스템에서 &mkvmerge;는 환경 변수 <varname>LANG</varname>, <varname>LC_ALL</varname>, <varname>LC_CTYPE</varname>을 사용하는 <citerefentry><refentrytitle>setlocale</refentrytitle><manvolnum>3</manvolnum></citerefentry> 시스템 호출을 사용합니다. 결과 문자 집합은 종종 UTF-8이나 ISO-8859-* 계열 중 하나이며 모든 텍스트 파일 작업과 명령줄의 문자열 인코딩 및 콘솔 출력에 사용됩니다."
 
 #. type: Content of: <refentry><refsect1><refsect2><title>
 #: doc/man/mkvmerge.xml:2838
