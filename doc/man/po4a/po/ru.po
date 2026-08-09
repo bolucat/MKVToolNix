@@ -1935,7 +1935,7 @@ msgstr "<option>--track-order</option> <parameter>FID1:TID1,FID2:TID2,...</param
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvmerge.xml:427
-msgid "This option changes the order in which the tracks for an input file are created. The argument is a comma separated list of pairs IDs. Each pair contains first the file ID (<parameter>FID1</parameter>) which is simply the number of the file on the command line starting at 0. The second is a track ID (<parameter>TID1</parameter>) from that file.  If some track IDs are omitted then those tracks are created after the ones given with this option have been created."
+msgid "This option changes the order in which the tracks for an input file are created. The argument is a comma-separated list of ID pairs. Each pair contains first the file ID (<parameter>FID1</parameter>) which is simply the number of the file on the command line starting at 0. The second is a track ID (<parameter>TID1</parameter>) from that file.  If some track IDs are omitted then those tracks are created after the ones given with this option have been created."
 msgstr "Этот параметр меняет порядок, в котором создаются дорожки для входного файла. Аргументом является список пар ИД, разделённых запятыми. Каждая пара изначально содержит ИД файла (<parameter>FID1</parameter>), который является просто номером файла в командной строке, начиная с 0. Вторым является ИД дорожки (<parameter>TID1</parameter>) из этого файла. Если некоторые ИД дорожек пропущены, эти дорожки создаются после того, как были созданы дорожки, заданные этим параметром."
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>

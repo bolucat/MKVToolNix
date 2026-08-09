@@ -1931,7 +1931,7 @@ msgstr "<option>--track-order</option> <parameter>FID1:TID1,FID2:TID2,...</param
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvmerge.xml:427
-msgid "This option changes the order in which the tracks for an input file are created. The argument is a comma separated list of pairs IDs. Each pair contains first the file ID (<parameter>FID1</parameter>) which is simply the number of the file on the command line starting at 0. The second is a track ID (<parameter>TID1</parameter>) from that file.  If some track IDs are omitted then those tracks are created after the ones given with this option have been created."
+msgid "This option changes the order in which the tracks for an input file are created. The argument is a comma-separated list of ID pairs. Each pair contains first the file ID (<parameter>FID1</parameter>) which is simply the number of the file on the command line starting at 0. The second is a track ID (<parameter>TID1</parameter>) from that file.  If some track IDs are omitted then those tracks are created after the ones given with this option have been created."
 msgstr "Dette alternativet endrer rekkefølgen sporene for en inndatafil opprettes i. Argumentet er en kommadelt liste over par-IDer. Hvert par inneholder først fil-ID (<parameter>FID1</parameter>) som ganske enkelt er nummeret på filen på kommandolinjen som starter på 0. Den andre er en spor-ID (<parameter>TID1</parameter>) fra den filen. Hvis noen spor-ID-er utelates, opprettes disse sporene etter at de som er gitt med dette alternativet, er opprettet."
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>

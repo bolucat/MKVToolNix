@@ -1937,7 +1937,7 @@ msgstr "<option>--track-order</option> <parameter>FID1:TID1,FID2:TID2...</parame
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvmerge.xml:427
-msgid "This option changes the order in which the tracks for an input file are created. The argument is a comma separated list of pairs IDs. Each pair contains first the file ID (<parameter>FID1</parameter>) which is simply the number of the file on the command line starting at 0. The second is a track ID (<parameter>TID1</parameter>) from that file.  If some track IDs are omitted then those tracks are created after the ones given with this option have been created."
+msgid "This option changes the order in which the tracks for an input file are created. The argument is a comma-separated list of ID pairs. Each pair contains first the file ID (<parameter>FID1</parameter>) which is simply the number of the file on the command line starting at 0. The second is a track ID (<parameter>TID1</parameter>) from that file.  If some track IDs are omitted then those tracks are created after the ones given with this option have been created."
 msgstr "Aquesta opció canvia l'ordre en el qual es creen les pistes a partir d'un fitxer d'entrada. L'argument és una llista separada per comes de parells d'ID. Cada parell conté primer l'ID del fitxer (<parameter>FID1</parameter>), el qual només és el número del fitxer a la línia d'ordres partint de 0. El segon és un ID de pista (<parameter>TID1</parameter>) d'aquest fitxer. Si s'ometen alguns ID de les pistes, llavors aquestes pistes seran creades després de les establertes amb aquesta opció."
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>
