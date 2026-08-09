@@ -11753,7 +11753,7 @@ msgstr "mkvtoolnix-gui [--multiplex|--info|--edit-chapters|--edit-headers] <file
 
 #: src/mkvtoolnix-gui/gui_cli_parser.cpp:51
 #, no-c-format
-msgid "Listing configuration file names with the extension .mtxcfg causes the GUI to load the those configuration files in the appropriate tool."
+msgid "Listing configuration file names with the extension .mtxcfg causes the GUI to load those configuration files in the appropriate tool."
 msgstr "拡張子.mtxcfgのファイル名を列挙すると、その設定ファイルは該当するツールでロードされます。"
 
 #: src/mkvtoolnix-gui/gui_cli_parser.cpp:52

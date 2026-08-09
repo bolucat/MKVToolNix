@@ -5685,7 +5685,7 @@ msgstr "&mkvtoolnix-gui; 是用于 &mkvmerge; 的 <abbrev>GUI</abbrev>，基于 
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvtoolnix-gui.xml:71
-msgid "Listing configuration file names with the extension <literal>.mtxcfg</literal> causes the GUI to load the those configuration files in the appropriate tool. Any other file name is added as a source file for multiplexing, opened in the info tool, the chapter editor or in the header editor depending on the current mode. The current mode can be changed with <option>--merge</option>, <option>--info</option>, <option>--edit-chapters</option> or <option>--edit-headers</option>. The default mode is adding files for multiplexing."
+msgid "Listing configuration file names with the extension <literal>.mtxcfg</literal> causes the GUI to load those configuration files in the appropriate tool. Any other file name is added as a source file for multiplexing, opened in the info tool, the chapter editor or in the header editor depending on the current mode. The current mode can be changed with <option>--merge</option>, <option>--info</option>, <option>--edit-chapters</option> or <option>--edit-headers</option>. The default mode is adding files for multiplexing."
 msgstr "给出扩展名为 <literal>.mtxcfg</literal> 的配置文件名，可让 GUI 在相应工具中加载这些配置文件。其他文件名将根据当前模式，作为待混流的输入文件添加，或在信息工具、章节编辑器或头部编辑器中打开。当前模式可通过 <option>--merge</option>（混流）、<option>--info</option>（信息）、<option>--edit-chapters</option>（章节编辑） 或 <option>--edit-headers</option>（头部编辑）修改。默认模式为添加文件用于混流。"
 
 #. type: Content of: <refentry><refsect1><para>

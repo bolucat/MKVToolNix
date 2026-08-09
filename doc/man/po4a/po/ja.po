@@ -5684,7 +5684,7 @@ msgstr "&mkvtoolnix-gui; は <productname>Qt</productname> に基づいた &mkvm
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvtoolnix-gui.xml:71
-msgid "Listing configuration file names with the extension <literal>.mtxcfg</literal> causes the GUI to load the those configuration files in the appropriate tool. Any other file name is added as a source file for multiplexing, opened in the info tool, the chapter editor or in the header editor depending on the current mode. The current mode can be changed with <option>--merge</option>, <option>--info</option>, <option>--edit-chapters</option> or <option>--edit-headers</option>. The default mode is adding files for multiplexing."
+msgid "Listing configuration file names with the extension <literal>.mtxcfg</literal> causes the GUI to load those configuration files in the appropriate tool. Any other file name is added as a source file for multiplexing, opened in the info tool, the chapter editor or in the header editor depending on the current mode. The current mode can be changed with <option>--merge</option>, <option>--info</option>, <option>--edit-chapters</option> or <option>--edit-headers</option>. The default mode is adding files for multiplexing."
 msgstr "<literal>.mtxcfg</literal> 拡張子のファイル名を列挙すると、GUI はそれらの設定ファイルを適切なツールで読み込みます。それ以外のファイル名は、現在のモードに従って、多重化のソースファイルとして、あるいは情報ツール、チャプターエディタ、ヘッダーエディタのいずれかで開かれます。現在のモードは <option>--merge</option>、<option>--info</option>、<option>--edit-chapters</option>、<option>--edit-headers</option> で変更できます。既定のモードは多重化用のファイル追加です。"
 
 #. type: Content of: <refentry><refsect1><para>

@@ -5650,7 +5650,7 @@ msgstr "&mkvtoolnix-gui; er en Qt-basert GUI for &mkvmerge;. Den implementerer o
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvtoolnix-gui.xml:71
-msgid "Listing configuration file names with the extension <literal>.mtxcfg</literal> causes the GUI to load the those configuration files in the appropriate tool. Any other file name is added as a source file for multiplexing, opened in the info tool, the chapter editor or in the header editor depending on the current mode. The current mode can be changed with <option>--merge</option>, <option>--info</option>, <option>--edit-chapters</option> or <option>--edit-headers</option>. The default mode is adding files for multiplexing."
+msgid "Listing configuration file names with the extension <literal>.mtxcfg</literal> causes the GUI to load those configuration files in the appropriate tool. Any other file name is added as a source file for multiplexing, opened in the info tool, the chapter editor or in the header editor depending on the current mode. The current mode can be changed with <option>--merge</option>, <option>--info</option>, <option>--edit-chapters</option> or <option>--edit-headers</option>. The default mode is adding files for multiplexing."
 msgstr "Oppføring av konfigurasjonsfilnavn med filtypen <literal>.mtxcfg</literal> får GUI til å laste disse konfigurasjonsfilene i det aktuelle verktøyet. Ethvert annet filnavn legges til som en kildefil for multipleksing, åpnet i infoverktøyet, kapittelredigereren eller i datahoderedigereren avhengig av gjeldende modus. Gjeldende modus kan endres med --merge, --info, --edit-chapters eller --edit-headers. Standardmodusen er å legge til filer for multipleksing."
 
 #. type: Content of: <refentry><refsect1><para>

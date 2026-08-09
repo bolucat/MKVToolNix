@@ -5688,7 +5688,7 @@ msgstr "&mkvtoolnix-gui;는 &mkvmerge;용 <productname>Qt</productname> 기반 <
 
 #. type: Content of: <refentry><refsect1><para>
 #: doc/man/mkvtoolnix-gui.xml:71
-msgid "Listing configuration file names with the extension <literal>.mtxcfg</literal> causes the GUI to load the those configuration files in the appropriate tool. Any other file name is added as a source file for multiplexing, opened in the info tool, the chapter editor or in the header editor depending on the current mode. The current mode can be changed with <option>--merge</option>, <option>--info</option>, <option>--edit-chapters</option> or <option>--edit-headers</option>. The default mode is adding files for multiplexing."
+msgid "Listing configuration file names with the extension <literal>.mtxcfg</literal> causes the GUI to load those configuration files in the appropriate tool. Any other file name is added as a source file for multiplexing, opened in the info tool, the chapter editor or in the header editor depending on the current mode. The current mode can be changed with <option>--merge</option>, <option>--info</option>, <option>--edit-chapters</option> or <option>--edit-headers</option>. The default mode is adding files for multiplexing."
 msgstr "<literal>.mtxcfg</literal> 확장자로 구성 파일 이름을 나열하면 GUI가 해당 도구에 해당 구성 파일을 로드합니다. 다른 모든 파일 이름은 현재 모드에 따라 정보 도구, 장 편집기 또는 헤더 편집기에서 열리는 다중화를 위한 소스 파일로 추가됩니다. 현재 모드는 <option>--merge</option>, <option>--info</option>, <option>--edit-chapters</option> 또는 <option>--edit-headers</option>를 사용하여 변경할 수 있습니다. 기본 모드는 다중화를 위해 파일을 추가하는 것입니다."
 
 #. type: Content of: <refentry><refsect1><para>
