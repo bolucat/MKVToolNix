@@ -3075,7 +3075,7 @@ CHAPTER03=00:02:42.300
 CHAPTER03NAME=Baby rocks the house</screen>
 
    <para>
-    &mkvmerge; will transform every pair or lines into one &matroska; <classname>ChapterAtom</classname>. It does not set any
+    &mkvmerge; will transform every pair of lines into one &matroska; <classname>ChapterAtom</classname>. It does not set any
     <classname>ChapterTrackNumber</classname> which means that all chapters apply to all tracks in the file.
    </para>
 

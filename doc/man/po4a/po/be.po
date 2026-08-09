@@ -4389,7 +4389,7 @@ msgstr ""
 
 #. type: Content of: <refentry><refsect1><refsect2><para>
 #: doc/man/mkvmerge.xml:3078
-msgid "&mkvmerge; will transform every pair or lines into one &matroska; <classname>ChapterAtom</classname>. It does not set any <classname>ChapterTrackNumber</classname> which means that all chapters apply to all tracks in the file."
+msgid "&mkvmerge; will transform every pair of lines into one &matroska; <classname>ChapterAtom</classname>. It does not set any <classname>ChapterTrackNumber</classname> which means that all chapters apply to all tracks in the file."
 msgstr "&mkvmerge; канвертуе кожную пару або радкі ў адзін <classname>ChapterAtom</classname> &matroska;. Ён не задае ніякі <classname>ChapterTrackNumbe</classname>, што азначае, што ўсе раздзелы ўжываюцца да ўсіх трэкаў у файле."
 
 #. type: Content of: <refentry><refsect1><refsect2><para>
