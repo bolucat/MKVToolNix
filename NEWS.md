@@ -1,5 +1,10 @@
 # Version ?
 
+## New features and enhancements
+
+* translations: substantial extension of the Czech translation by Michal
+  Várady.
+
 ## Bug fixes
 
 * Windows: fixed converting the scalable SVG icons into the bitmap `.ico` ones
