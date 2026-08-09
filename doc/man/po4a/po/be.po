@@ -2493,7 +2493,7 @@ msgstr "Гэты параметр вызначае, да якога трэка �
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvmerge.xml:1024
-msgid "If this option has been omitted then a standard mapping is used.  This standard mapping appends each track from the current file to a track from the previous file with the same track ID.  This allows for easy appending if a movie has been split into two parts and both file have the same number of tracks and track IDs with the command <command>mkvmerge -o output.mkv part1.mkv +part2.mkv</command>."
+msgid "If this option has been omitted then a standard mapping is used.  This standard mapping appends each track from the current file to a track from the previous file with the same track ID.  This allows for easy appending if a movie has been split into two parts and both files have the same number of tracks and track IDs with the command <command>mkvmerge -o output.mkv part1.mkv +part2.mkv</command>."
 msgstr "Калі гэты параметр быў прапушчаны, выкарыстоўваецца стандартнае супастазленне Гэтае стандартнае супастаўленне дадае кожны трэк з бягучага файла да трэка з папярэдняга файла з тым жа ідэнтыфікатарам трэка. Гэта дазваляе лёгка дадаваць, калі фільм быў падзелены на дзве часткі і абодва файлы маюць аднолькавую колькасць трэкаў і ідэнтыфікатараў трэкаў праз каманду <command>mkvmerge -o output.mkv part1.mkv +part2.mkv</command>."
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><term>

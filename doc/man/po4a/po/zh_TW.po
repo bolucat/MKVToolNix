@@ -2498,7 +2498,7 @@ msgstr "此选项控制将哪一条轨道追加合并到哪一条轨道。 每�
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvmerge.xml:1024
-msgid "If this option has been omitted then a standard mapping is used.  This standard mapping appends each track from the current file to a track from the previous file with the same track ID.  This allows for easy appending if a movie has been split into two parts and both file have the same number of tracks and track IDs with the command <command>mkvmerge -o output.mkv part1.mkv +part2.mkv</command>."
+msgid "If this option has been omitted then a standard mapping is used.  This standard mapping appends each track from the current file to a track from the previous file with the same track ID.  This allows for easy appending if a movie has been split into two parts and both files have the same number of tracks and track IDs with the command <command>mkvmerge -o output.mkv part1.mkv +part2.mkv</command>."
 msgstr "如果忽略本选项，则将使用标准映射。 标准映射即将当前文件的各个轨道追加到前一个文件的相应轨道（轨道 ID 相同）。 当影片被切割为多段，且各文件中轨道数和轨道 ID 相同时，这将允许简单的追加合并，命令行为 <command>mkvmerge -o 输出.mkv 第一段.mkv +第二段.mkv</command>。"
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><term>

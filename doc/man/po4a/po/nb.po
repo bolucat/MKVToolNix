@@ -2489,7 +2489,7 @@ msgstr "Dette alternativet kontrollerer hvilket spor et annet spor tilføyes. Hv
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvmerge.xml:1024
-msgid "If this option has been omitted then a standard mapping is used.  This standard mapping appends each track from the current file to a track from the previous file with the same track ID.  This allows for easy appending if a movie has been split into two parts and both file have the same number of tracks and track IDs with the command <command>mkvmerge -o output.mkv part1.mkv +part2.mkv</command>."
+msgid "If this option has been omitted then a standard mapping is used.  This standard mapping appends each track from the current file to a track from the previous file with the same track ID.  This allows for easy appending if a movie has been split into two parts and both files have the same number of tracks and track IDs with the command <command>mkvmerge -o output.mkv part1.mkv +part2.mkv</command>."
 msgstr "Hvis dette alternativet er utelatt, brukes en standardtilordning. Denne standardtilordningen legger til hvert spor fra gjeldende fil til et spor fra den forrige filen med samme sporings-ID. Dette gjør det enkelt å tilføye hvis en film er splittet i to deler og begge filene har samme antall spor og spor-IDer med kommandoen <command>mkvmerge -o utdata.mkv del1.mkv + del2.mkv</command>."
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><term>

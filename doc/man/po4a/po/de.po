@@ -2491,7 +2491,7 @@ msgstr "Diese Option steuert, an welche Spur eine andere Spur angehängt wird. J
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvmerge.xml:1024
-msgid "If this option has been omitted then a standard mapping is used.  This standard mapping appends each track from the current file to a track from the previous file with the same track ID.  This allows for easy appending if a movie has been split into two parts and both file have the same number of tracks and track IDs with the command <command>mkvmerge -o output.mkv part1.mkv +part2.mkv</command>."
+msgid "If this option has been omitted then a standard mapping is used.  This standard mapping appends each track from the current file to a track from the previous file with the same track ID.  This allows for easy appending if a movie has been split into two parts and both files have the same number of tracks and track IDs with the command <command>mkvmerge -o output.mkv part1.mkv +part2.mkv</command>."
 msgstr "Falls diese Option weggelassen wurde, wird eine Standardzuordnung benutzt. Diese Standardzuordnung hängt jede Spur der aktuellen Datei an eine Spur der vorherigen Datei mit derselben Spur-ID an. Dies ermöglicht einfaches Anhängen mit dem Befehl <command>mkvmerge -o Ausgabe.mkv Teil1.mkv +Teil2.mkv</command>, falls ein Film in zwei Teile geschnitten wurde und beide Dateien dieselbe Anzahl von Spuren und Spur-IDs haben."
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><term>

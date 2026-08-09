@@ -2496,7 +2496,7 @@ msgstr "Cette option contrôle à quelle piste une autre piste est ajoutée. Cha
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>
 #: doc/man/mkvmerge.xml:1024
-msgid "If this option has been omitted then a standard mapping is used.  This standard mapping appends each track from the current file to a track from the previous file with the same track ID.  This allows for easy appending if a movie has been split into two parts and both file have the same number of tracks and track IDs with the command <command>mkvmerge -o output.mkv part1.mkv +part2.mkv</command>."
+msgid "If this option has been omitted then a standard mapping is used.  This standard mapping appends each track from the current file to a track from the previous file with the same track ID.  This allows for easy appending if a movie has been split into two parts and both files have the same number of tracks and track IDs with the command <command>mkvmerge -o output.mkv part1.mkv +part2.mkv</command>."
 msgstr "Si cette option a été omise, alors un mappage standard est utilisé. Ce mappage standard ajoute chaque piste du fichier actuel à une piste du fichier précédent avec le même ID de piste. Cela rend l'ajout plus facile, si un film a été scindé en deux parties et que les deux fichiers ont le même nombre de pistes et d'ID de pistes, avec la commande <command>mkvmerge -o output.mkv part1.mkv +part2.mkv</command>."
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><term>
