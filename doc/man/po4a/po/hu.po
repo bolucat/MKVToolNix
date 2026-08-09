@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MKVToolNix\n"
 "Report-Msgid-Bugs-To: mo@bunkus.online\n"
-"POT-Creation-Date: 2026-08-09 15:57+0200\n"
+"POT-Creation-Date: 2026-08-09 16:02+0200\n"
 "PO-Revision-Date: 2025-05-10 13:12+0200\n"
 "Last-Translator: György Viktor <wickdj@gmail.com>, 2024\n"
 "Language-Team: Hungarian (http://app.transifex.com/moritz-bunkus/mkvtoolnix/language/hu/)\n"
@@ -2909,7 +2909,7 @@ msgstr "<option>--cues</option> <parameter>TID:none|iframes|all</parameter>"
 #: doc/man/mkvmerge.xml:1463
 #, fuzzy
 #| msgid "Controls for which tracks cue (index) entries are created for the given track (see section <link linkend=\"mkvmerge.track_ids\">track IDs</link>). '<literal>none</literal>' inhibits the creation of cue entries.  For '<literal>iframes</literal>' only blocks with no backward or forward references ( = I frames in video tracks) are put into the cue sheet. '<literal>all</literal>' causes &mkvmerge; to create cue entries for all blocks which will make the file very big."
-msgid "Controls for which cue entries (indexes) are created for the given track (see section <link linkend=\"mkvmerge.track_ids\">track IDs</link>). '<literal>none</literal>' inhibits the creation of cue entries.  For '<literal>iframes</literal>' only blocks with no backward or forward references ( = I frames in video tracks) are put into the cue sheet. '<literal>all</literal>' causes &mkvmerge; to create cue entries for all blocks which will make the file very big."
+msgid "Controls for which blocks cue (index) entries are created for the given track (see section <link linkend=\"mkvmerge.track_ids\">track IDs</link>). '<literal>none</literal>' inhibits the creation of cue entries.  For '<literal>iframes</literal>' only blocks with no backward or forward references ( = I frames in video tracks) are put into the cue sheet. '<literal>all</literal>' causes &mkvmerge; to create cue entries for all blocks which will make the file very big."
 msgstr "Szabályozza, hogy mely sávok cue (index) bejegyzéseit hozza létre az adott sávhoz (lásd a <link linkend=\"mkvmerge.track_ids\">sáv azonosítók</link> részt). A '<literal>none</literal>' gátolja a cue-bejegyzések létrehozását.  A '<literal>iframes</literal>' esetén csak a visszafelé vagy előre utalások nélküli blokkok ( = I képkockák a videó-sávokban) kerülnek a cue lapra. A '<literal>all</literal>' hatására az &mkvmerge; az összes blokkhoz létrehozza a cue-bejegyzéseket, ami nagyon nagy méretűvé teszi a fájlt."
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>

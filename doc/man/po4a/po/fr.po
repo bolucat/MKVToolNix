@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MKVToolNix\n"
-"POT-Creation-Date: 2026-08-09 15:57+0200\n"
+"POT-Creation-Date: 2026-08-09 16:02+0200\n"
 "PO-Revision-Date: 2016-02-03 20:53+0000\n"
 "Last-Translator: tmtisfree <tmtisfree@free.fr>, 2016-2026\n"
 "Language-Team: French (http://app.transifex.com/moritz-bunkus/mkvtoolnix/language/fr/)\n"
@@ -2909,7 +2909,7 @@ msgstr "<option>--cues</option> <parameter>TID:none|iframes|all</parameter>"
 #: doc/man/mkvmerge.xml:1463
 #, fuzzy
 #| msgid "Controls for which tracks cue (index) entries are created for the given track (see section <link linkend=\"mkvmerge.track_ids\">track IDs</link>). '<literal>none</literal>' inhibits the creation of cue entries.  For '<literal>iframes</literal>' only blocks with no backward or forward references ( = I frames in video tracks) are put into the cue sheet. '<literal>all</literal>' causes &mkvmerge; to create cue entries for all blocks which will make the file very big."
-msgid "Controls for which cue entries (indexes) are created for the given track (see section <link linkend=\"mkvmerge.track_ids\">track IDs</link>). '<literal>none</literal>' inhibits the creation of cue entries.  For '<literal>iframes</literal>' only blocks with no backward or forward references ( = I frames in video tracks) are put into the cue sheet. '<literal>all</literal>' causes &mkvmerge; to create cue entries for all blocks which will make the file very big."
+msgid "Controls for which blocks cue (index) entries are created for the given track (see section <link linkend=\"mkvmerge.track_ids\">track IDs</link>). '<literal>none</literal>' inhibits the creation of cue entries.  For '<literal>iframes</literal>' only blocks with no backward or forward references ( = I frames in video tracks) are put into the cue sheet. '<literal>all</literal>' causes &mkvmerge; to create cue entries for all blocks which will make the file very big."
 msgstr "Contrôle pour quelles pistes les entrées de montage (index) sont créées pour la piste fournie (voir la section <link linkend=\"mkvmerge.track_ids\">ID de pistes</link>). '<literal>none</literal>' inhibe la création des entrées de montage. Pour les '<literal>iframes</literal>', seuls les blocs sans références avance et retour ( = trames I dans les pistes vidéo) sont placées dans la feuille de montage. '<literal>all</literal>' oblige &mkvmerge; à créer des entrées de montage pour tous les blocs, ce qui rendra le fichier très lourd."
 
 #. type: Content of: <refentry><refsect1><refsect2><variablelist><varlistentry><listitem><para>
