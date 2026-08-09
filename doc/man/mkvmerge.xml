@@ -1460,7 +1460,7 @@ $ mkvmerge -o out.mkv '(' file.mkv ')'</screen>
      <term><option>--cues</option> <parameter>TID:none|iframes|all</parameter></term>
      <listitem>
       <para>
-       Controls for which cue entries (indexes) are created for the given track (see section <link linkend="mkvmerge.track_ids">track
+       Controls for which blocks cue (index) entries are created for the given track (see section <link linkend="mkvmerge.track_ids">track
        IDs</link>). '<literal>none</literal>' inhibits the creation of cue entries.  For '<literal>iframes</literal>' only blocks with
        no backward or forward references ( = I frames in video tracks) are put into the cue sheet. '<literal>all</literal>' causes
        &mkvmerge; to create cue entries for all blocks which will make the file very big.
