@@ -15,8 +15,11 @@
 
 ## Build system changes
 
-* The bundled libraries `libEBML` & `libMatroska` were updated to v1.4.7 &
-  v1.7.2 respectively.
+* The bundled libraries libEBML & libMatroska were updated to v1.4.7 &
+  v1.7.2 respectively. Those versions fix various possible invalid memory
+  accesses when reading data broken in certain, very specific ways, making
+  them security sensitive.
+* libEBML v1.4.7 & libMatroska v1.7.22 are now required.
 * The meta info file `org.bunkus.mkvtoolnix-gui.appdata.xml` was renamed
   to `org.bunkus.mkvtoolnix-gui.metainfo.xml`.
 
