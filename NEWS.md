@@ -22,7 +22,7 @@
   v1.7.2 respectively. Those versions fix various possible invalid memory
   accesses when reading data broken in certain, very specific ways, making
   them security sensitive.
-* libEBML v1.4.7 & libMatroska v1.7.22 are now required.
+* libEBML v1.4.7 & libMatroska v1.7.2 are now required.
 * The meta info file `org.bunkus.mkvtoolnix-gui.appdata.xml` was renamed
   to `org.bunkus.mkvtoolnix-gui.metainfo.xml`.
 
