@@ -7,14 +7,14 @@
 
 ## Bug fixes
 
-* Windows: fixed converting the scalable SVG icons into the bitmap `.ico` ones
-  used on Windows so that the grey background remains uniform & doesn't get
-  garbled. Fixes #6280.
 * mkvmerge: TrueHD parser: fixed mkvmerge dropping the last TrueHD frame if
   its size was smaller than 12 bytes. Fixes #6296.
 * MKVToolNix GUI: job runner: the variable `<MTX_INSTALLATION_DIRECTORY>` will
   be replaed in the executable position of the command-line for the program to
   execute again. Fixes #6299.
+* Windows: fixed converting the scalable SVG icons into the bitmap `.ico` ones
+  used on Windows so that the grey background remains uniform & doesn't get
+  garbled. Fixes #6280.
 
 ## Build system changes
 
