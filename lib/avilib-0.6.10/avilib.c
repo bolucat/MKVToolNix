@@ -61,6 +61,18 @@ static void *_saferealloc(void *p, size_t size, int line) {
   return mem;
 }
 
+#define safemulu(a, b) _safemulu(a, b, __LINE__)
+static size_t _safemulu(size_t a, size_t b, int line) {
+  size_t result = 0;
+
+  if (__builtin_mul_overflow(a, b, &result)) {
+    fprintf(stderr, "avilib.c/_safemulu() called from line %d: __builtin_mul_overflow(%zu, %zu) indicated an overflow.\n", line, a, b);
+    exit(2);
+  }
+
+  return result;
+}
+
 #if defined(COMP_MSC) || defined(COMP_MINGW)
 # define snprintf _snprintf
 # define strtoll(x,y,z) _atoi64(x)
@@ -274,7 +286,13 @@ static int avi_add_chunk(avi_t *AVI, void *tag, void *data, int length)
 static int avi_ixnn_entry(avi_t *AVI, avistdindex_chunk *ch, avisuperindex_entry *en) 
 {
     int bl, k;
-    unsigned int max = ch->nEntriesInUse * sizeof (uint32_t) * ch->wLongsPerEntry + 24; // header
+    size_t max = safemulu(ch->nEntriesInUse, sizeof (uint32_t) * ch->wLongsPerEntry) + 24; // header
+
+    if (max >= (1ull << 32)) {
+      fprintf(stderr, "avilib.c/avi_ixnn_entry: aborting due to 32-bit integer overflow detection for index entry size\n");
+      exit(2);
+    }
+
     char *ix00 = safecalloc(1, max);
     char dfcc[5];
     memcpy (dfcc, ch->fcc, 4);
@@ -340,12 +358,12 @@ static int avi_init_super_index(avi_t *AVI, char *idxtag, avisuperindex_chunk **
     memset (sil->dwReserved, 0, sizeof (sil->dwReserved));
 
     // NR_IXNN_CHUNKS == allow 1024 indices which means 1024 GB files -- arbitrary
-    sil->aIndex = safecalloc(1, sil->wLongsPerEntry * NR_IXNN_CHUNKS * sizeof (uint32_t));
+    sil->aIndex = safecalloc(1, (size_t)sil->wLongsPerEntry * NR_IXNN_CHUNKS * sizeof (uint32_t));
     if (!sil->aIndex) {
 	AVI_errno = AVI_ERR_NO_MEM;
 	return -1;
     }
-    memset (sil->aIndex, 0, sil->wLongsPerEntry * NR_IXNN_CHUNKS * sizeof (uint32_t));
+    memset (sil->aIndex, 0, (size_t)sil->wLongsPerEntry * NR_IXNN_CHUNKS * sizeof (uint32_t));
 
     sil->stdindex = safecalloc(1, NR_IXNN_CHUNKS * sizeof (avistdindex_chunk *));
     if (!sil->stdindex) {
@@ -381,7 +399,7 @@ static int avi_add_std_index(avi_t *AVI, void *idxtag, void *strtag,
 
     //stdil->qwBaseOffset = AVI->video_superindex->aIndex[ cur_std_idx ]->qwOffset;
 
-    stdil->aIndex = safecalloc(1, stdil->dwSize * sizeof (uint32_t) * stdil->wLongsPerEntry);
+    stdil->aIndex = safecalloc(1, safemulu(stdil->dwSize, sizeof (uint32_t) * stdil->wLongsPerEntry));
 
     if (!stdil->aIndex) {
 	AVI_errno = AVI_ERR_NO_MEM;
@@ -402,7 +420,7 @@ static int avi_add_odml_index_entry_core(avi_t *AVI, long flags, int64_t pos, un
     // need to fetch more memory
     if (cur_chunk_idx >= si->dwSize) {
 	si->dwSize += 4096;
-	si->aIndex = saferealloc ( si->aIndex, si->dwSize * sizeof (uint32_t) * si->wLongsPerEntry);
+	si->aIndex = saferealloc ( si->aIndex, safemulu(si->dwSize, sizeof (uint32_t) * si->wLongsPerEntry));
     }
 
     if(len>AVI->max_len) AVI->max_len=len;
@@ -2576,7 +2594,7 @@ int avi_parse_input_file(avi_t *AVI, int getIndex)
 	    if (AVI->video_superindex->bIndexSubType != 0) {fprintf(stderr, "Invalid Header, bIndexSubType != 0\n"); }
 	    
 	    AVI->video_superindex->aIndex = 
-	       safecalloc(1, AVI->video_superindex->wLongsPerEntry * AVI->video_superindex->nEntriesInUse * sizeof (uint32_t));
+	       safecalloc(1, safemulu(sizeof(uint32_t) * AVI->video_superindex->wLongsPerEntry, AVI->video_superindex->nEntriesInUse));
 
 	    // position of ix## chunks
 	    for (j=0; j<AVI->video_superindex->nEntriesInUse; ++j) {
@@ -2629,8 +2647,8 @@ int avi_parse_input_file(avi_t *AVI, int getIndex)
 	    if (AVI->track[AVI->aptr].audio_superindex->bIndexSubType != 0) {fprintf(stderr, "Invalid Header, bIndexSubType != 0\n"); }
 	    
 	    AVI->track[AVI->aptr].audio_superindex->aIndex = 
-	       safecalloc(1, AVI->track[AVI->aptr].audio_superindex->wLongsPerEntry * 
-		     AVI->track[AVI->aptr].audio_superindex->nEntriesInUse * sizeof (uint32_t));
+	       safecalloc(1, safemulu(sizeof (uint32_t) * AVI->track[AVI->aptr].audio_superindex->wLongsPerEntry,
+		     AVI->track[AVI->aptr].audio_superindex->nEntriesInUse));
 
 	    // position of ix## chunks
 	    for (j=0; j<AVI->track[AVI->aptr].audio_superindex->nEntriesInUse; ++j) {
@@ -2678,8 +2696,8 @@ int avi_parse_input_file(avi_t *AVI, int getIndex)
 	    if (AVI->ttrack[AVI->tptr].audio_superindex->bIndexSubType != 0) {fprintf(stderr, "Invalid Header, bIndexSubType != 0\n"); }
 
 	    AVI->ttrack[AVI->tptr].audio_superindex->aIndex = 
-	       safecalloc(1, AVI->ttrack[AVI->tptr].audio_superindex->wLongsPerEntry * 
-		     AVI->ttrack[AVI->tptr].audio_superindex->nEntriesInUse * sizeof (uint32_t));
+	       safecalloc(1, safemulu(sizeof(uint32_t) * AVI->ttrack[AVI->tptr].audio_superindex->wLongsPerEntry,
+		     AVI->ttrack[AVI->tptr].audio_superindex->nEntriesInUse));
 
 	    // position of ix## chunks
 	    for (j=0; j<AVI->ttrack[AVI->tptr].audio_superindex->nEntriesInUse; ++j) {
